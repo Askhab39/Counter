@@ -20,6 +20,10 @@ body {
     margin: 0;
     margin-bottom: 20px;
 
+    &.zero {
+      color: yellow;
+    }
+
     &.plus {
       color: #2a9d8f;
     }
@@ -44,6 +48,13 @@ body {
     cursor: pointer;
     margin: 0 10px;
     transition: all 0.05s ease-in-out;
+
+    &.zero{
+      background-color: rgb(236, 236, 0);
+      color: #fff;
+      box-shadow: 0 4px 0 darken(rgb(236, 236, 0), 10%);
+      border: 1px solid darken(rgb(236, 236, 0), 15%);
+    }
 
     &.minus {
       background-color: #e63946;
